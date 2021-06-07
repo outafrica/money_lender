@@ -46,9 +46,7 @@
         ],
         "post-install-cmd": [
             "chmod -R 777 storage",
-            "chmod -R 777 storage/ *",
-            "chmod -R 777 public/uploads",
-            "chmod -R 777 public/uploads/ *"
+            "chmod -R 777 storage/ *"
         ]
     },
     "extra": {
