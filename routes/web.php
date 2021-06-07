@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Applicants\LoanApplication;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/answers', [LoanApplication::class, 'index']);
+Route::post('/application/uploads', [LoanApplication::class, 'upload']);
+Route::post('/application/send', [LoanApplication::class, 'store']);
+
+
+

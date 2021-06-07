@@ -10,8 +10,11 @@ window.Vue = require('vue').default;
 import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 import Vue from 'vue'
+import common from './common'
 
 Vue.use(ViewUI)
+Vue.mixin(common)
+
 
 /**
  * The following block of code may be used to automatically register your
