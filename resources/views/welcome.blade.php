@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Brands that use <span><strong>Quick_Credit</strong></span> to empower your business</h4>
+                    <h4>Brands that use <span><strong>Credit_Score</strong></span> to empower your business</h4>
                     <hr class="section-divider">
 
                     <!-- Image Slider -->
@@ -74,7 +74,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>Quick_Credit is here to help you grow your business</h2>
+                        <h2>Credit_Score is here to help you grow your business</h2>
                         <p>We believe in sustainable and trustful ecommerce which offers opportunities for both shop owners and customers. Our entire experience and passion can be found in Kora and you are invited to use it for your business</p>
                         <a class="btn-solid-reg"  href="{!! url('/apply'); !!}">Sign up</a>
                     </div> <!-- end of text-container -->

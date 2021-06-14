@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-col first">
-                        <h6>About Quick_Credit</h6>
+                        <h6>About Credit_Score</h6>
                         <p class="p-small">Kora is a SaaS app website Bootstrap HTML template packed with features like logo slider, details lightbox, testimonial slider dropdown</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
@@ -40,7 +40,7 @@
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
-                        <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>info@quick_credit.com</strong></a></p>
+                        <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>info@credit_score.com</strong></a></p>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

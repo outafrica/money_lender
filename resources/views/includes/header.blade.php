@@ -59,7 +59,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Kora</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="{!! url('/'); !!}"><strong>Quick_Credit</strong></a> 
+            <a class="navbar-brand logo-image" href="{!! url('/'); !!}"><strong>Credit_Score</strong></a> 
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
