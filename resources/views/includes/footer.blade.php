@@ -5,7 +5,7 @@
                 <div class="col-lg-12">
                     <div class="footer-col first">
                         <h6>About Credit_Score</h6>
-                        <p class="p-small">Kora is a SaaS app website Bootstrap HTML template packed with features like logo slider, details lightbox, testimonial slider dropdown</p>
+                        <p class="p-small">Credit_Score is a SaaS app website Bootstrap HTML template packed with features like logo slider, details lightbox, testimonial slider dropdown</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
                         <h6>Links</h6>

@@ -56,7 +56,7 @@
         <div class="container">
             
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Kora</a> -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Credit_Score</a> -->
 
             <!-- Image Logo -->
             <a class="navbar-brand logo-image" href="{!! url('/'); !!}"><strong>Credit_Score</strong></a> 

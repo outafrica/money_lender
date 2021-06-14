@@ -75,7 +75,7 @@
                 <div class="col-lg-5">
                     <div class="text-container">
                         <h2>Credit_Score is here to help you grow your business</h2>
-                        <p>We believe in sustainable and trustful ecommerce which offers opportunities for both shop owners and customers. Our entire experience and passion can be found in Kora and you are invited to use it for your business</p>
+                        <p>We believe in sustainable and trustful ecommerce which offers opportunities for both shop owners and customers. Our entire experience and passion can be found in Credit_Score and you are invited to use it for your business</p>
                         <a class="btn-solid-reg"  href="{!! url('/apply'); !!}">Sign up</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Check out all the features</h2>
-                    <p class="p-heading">The features built into Kora were designed to help online shop owners present their merchandise and find more customers</p>
+                    <p class="p-heading">The features built into Credit_Score were designed to help online shop owners present their merchandise and find more customers</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -106,7 +106,7 @@
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Product Marketing On Social Platforms</h4>
-                            <p>Besides regular product display options Kora has multiple functions for social networks integration</p>
+                            <p>Besides regular product display options Credit_Score has multiple functions for social networks integration</p>
                             <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
                         </div>
                     </div>
@@ -270,7 +270,7 @@
                     <div class="text-container">
                         <div class="section-title">Step 3</div>
                         <h2>Wait for an Email Approval</h2>
-                        <p>We can deliver a comprehensive marketing plan and then execute it down to the smallest details. To start using Kora just sign up and submit your details</p>
+                        <p>We can deliver a comprehensive marketing plan and then execute it down to the smallest details. To start using Credit_Score just sign up and submit your details</p>
                         <a class="btn-solid-reg" href="sign-up.html">Sign up now</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
