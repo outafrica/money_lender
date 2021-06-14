@@ -2165,7 +2165,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2342,11 +2341,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         while (1) {
           switch (_context2.prev = _context2.next) {
             case 0:
-              _this2.token = window.Laravel.csrfToken;
-              _context2.next = 3;
+              _context2.next = 2;
               return _this2.callApi('get', '/answers');
 
-            case 3:
+            case 2:
               res = _context2.sent;
 
               if (res.status == 200) {
@@ -2370,7 +2368,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 _this2.d();
               }
 
-            case 5:
+            case 4:
             case "end":
               return _context2.stop();
           }
@@ -84841,7 +84839,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container", staticStyle: { padding: "10px 0" } },
+    {
+      staticClass: "container",
+      staticStyle: { "padding-top": "70px", "padding-bottom": "20px" }
+    },
     [
       _c(
         "div",

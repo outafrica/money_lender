@@ -14,3 +14,18 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css');
+    // .styles([
+    //     'resources/css/welcome/bootstrap.css',
+    //     'resources/css/welcome/fontawesome-all.cs',
+    //     'resources/css/welcome/swiper.css',
+    //     'resources/css/welcome/magnific-popup.css',
+    //     'resources/css/welcome/styles.css',
+    // ], 'public/css/app.css')
+    // js([
+    //     'resources/js/welcome/jquery.min.js',
+    //     'resources/js/welcome/bootstrap.min.js',
+    //     'resources/js/welcome/jquery.easing.min.js',
+    //     'resources/js/welcome/jquery.magnific-popup.js',
+    //     'resources/js/welcome/swiper.min.js',
+    //     'resources/js/welcome/scripts.js',
+    // ], 'public/js/app.js')

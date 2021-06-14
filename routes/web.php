@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/apply', function () {
+    return view('apply');
+});
+
 Route::get('/answers', [LoanApplication::class, 'index']);
 Route::post('/application/uploads', [LoanApplication::class, 'upload']);
 Route::post('/application/send', [LoanApplication::class, 'store']);

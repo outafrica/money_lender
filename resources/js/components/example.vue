@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container" style="padding: 10px 0">
+    <div class="container" style="padding-top: 70px; padding-bottom: 20px;">
 
         <div class="container" style="padding: 10px 0">
         
@@ -295,7 +295,6 @@
             <Button type="primary" v-if="prevButton" @click="previous">Previous</Button>
             <Button type="primary" v-if="nextButton" @click="next">Next step</Button>
             <Button class="pull-right" type="success" v-if="saveApplication" @click="saveApp">Submit</Button>
-
         </div>
 
     </div>
@@ -492,8 +491,10 @@
 
         async created() {
             
-			this.token = window.Laravel.csrfToken;
+            // const res = 'Test email';
+           
             const res = await this.callApi('get', '/answers');
+
             if(res.status == 200){
                 this.answers = res.data;
                 this.ages = this.answers['age'];
