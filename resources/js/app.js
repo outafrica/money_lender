@@ -11,8 +11,9 @@ import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 import Vue from 'vue'
 import common from './common'
+import locale from 'view-design/dist/locale/en-US';
 
-Vue.use(ViewUI)
+Vue.use(ViewUI, {locale: locale})
 Vue.mixin(common)
 
 
@@ -27,7 +28,9 @@ Vue.mixin(common)
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example', require('./components/example.vue').default);
+Vue.component('prepaid', require('./components/prepaid.vue').default);
+Vue.component('apply', require('./components/aa_apply.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

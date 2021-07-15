@@ -79,6 +79,7 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#details">Details</a>
                     </li>
+                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -90,8 +91,11 @@
                         </div>
                     </li>
                 </ul>
-                <span class="nav-item">
+                <!-- <span class="nav-item">
                     <a class="btn-solid-sm page-scroll" href="{!! url('/apply'); !!}">Apply Now</a>
+                </span> -->
+                <span class="nav-item">
+                    <a class="btn-solid-sm page-scroll" href="{!! url('/aa_application/apply'); !!}"> AA Prepaid Application</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->

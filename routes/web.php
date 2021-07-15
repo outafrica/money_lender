@@ -22,6 +22,10 @@ Route::get('/apply', function () {
     return view('apply');
 });
 
+Route::get('aa_application/apply', function () {
+    return view('aa_prepaid');
+});
+
 Route::get('/answers', [LoanApplication::class, 'index']);
 Route::post('/application/uploads', [LoanApplication::class, 'upload']);
 Route::post('/application/send', [LoanApplication::class, 'store']);
