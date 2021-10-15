@@ -91,11 +91,8 @@
                         </div>
                     </li>
                 </ul>
-                <!-- <span class="nav-item">
-                    <a class="btn-solid-sm page-scroll" href="{!! url('/apply'); !!}">Apply Now</a>
-                </span> -->
                 <span class="nav-item">
-                    <a class="btn-solid-sm page-scroll" href="{!! url('/aa_application/apply'); !!}"> AA Prepaid Application</a>
+                    <a class="btn-solid-sm page-scroll" href="{!! url('/apply'); !!}">Apply Now</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
