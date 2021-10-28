@@ -468,7 +468,7 @@
 				if(res.status == 201){
 					
 					this.s('Successfully Applied for Credit');
-					// window.location = '/';
+					window.location = '/';
 
 
 				}else{
