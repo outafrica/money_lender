@@ -491,7 +491,7 @@
 
         async created() {
             
-            // const res = 'Test email';
+            this.token = window.Laravel.csrfToken;
            
             const res = await this.callApi('get', '/answers');
 

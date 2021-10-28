@@ -2802,10 +2802,11 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         while (1) {
           switch (_context2.prev = _context2.next) {
             case 0:
-              _context2.next = 2;
+              _this2.token = window.Laravel.csrfToken;
+              _context2.next = 3;
               return _this2.callApi('get', '/answers');
 
-            case 2:
+            case 3:
               res = _context2.sent;
 
               if (res.status == 200) {
@@ -2829,7 +2830,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 _this2.d();
               }
 
-            case 4:
+            case 5:
             case "end":
               return _context2.stop();
           }
