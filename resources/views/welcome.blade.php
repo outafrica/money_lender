@@ -1,5 +1,5 @@
 <!-- Import header -->
-@include('includes.header')
+@include('includes.welcome.header')
  
     <!-- Header -->
     <header id="header" class="header">
@@ -452,4 +452,4 @@
     <!-- end of newsletter -->
 
 <!-- Import footer -->
-@include('includes.footer')
+@include('includes.welcome.footer')

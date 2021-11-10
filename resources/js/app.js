@@ -7,6 +7,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue').default;
+import router from './router'
 import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 import Vue from 'vue'
@@ -29,7 +30,9 @@ Vue.mixin(common)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('prepaid', require('./components/prepaid.vue').default);
-Vue.component('apply', require('./components/aa_apply.vue').default);
+// Vue.component('apply', require('./components/aa_apply.vue').default);
+Vue.component('dashboard', require('./components/admin/dashboard.vue').default);
+
 
 
 /**
@@ -40,4 +43,5 @@ Vue.component('apply', require('./components/aa_apply.vue').default);
 
 const app = new Vue({
     el: '#app',
+    router,
 });

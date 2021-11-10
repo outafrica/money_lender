@@ -1,11 +1,11 @@
 <!-- Import header -->
-@include('includes.welcome.header')
+@include('includes.admin.header')
 
     <div class="application_header" id="app">
-        <prepaid></prepaid>
+        <dashboard></dashboard>
     </div>
 
     <script src="{{mix('/js/app.js')}}"></script>
 
 <!-- Import footer -->
-@include('includes.welcome.footer')
+@include('includes.admin.footer')

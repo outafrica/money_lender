@@ -13,7 +13,11 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .vue()
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+    .styles([
+        'resources/css/admin/grid.css',
+        'resources/css/admin/main.css'
+    ], 'public/css/admin/admin.css');
     // .styles([
     //     'resources/css/welcome/bootstrap.css',
     //     'resources/css/welcome/fontawesome-all.cs',
